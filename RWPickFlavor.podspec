@@ -43,4 +43,6 @@ s.source_files = "RWPickFlavor/**/*.{swift}"
 
 # 9
 s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 end
